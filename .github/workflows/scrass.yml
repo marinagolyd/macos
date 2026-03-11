@@ -3,7 +3,7 @@ name: Subnet Node
 on:
   schedule:
     # Запуск у 05-ту хвилину кожні 4 години (00:05, 04:05 і т.д.)
-    - cron: '33 */5 * * *'
+    - cron: '33 */7 * * *'
   workflow_dispatch:
 
 jobs:
